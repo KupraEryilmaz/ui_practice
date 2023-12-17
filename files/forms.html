@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Forms practice</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background-color: coral;
+        }
+    </style>
+</head>
+<body style="background-color: crimson">
+<form>
+    <p style="background-color: darkgray">
+        Username:
+        <input type="text" name="username">
+    </p>
+    <p class="class1">
+        Password:
+        <input type="password" name="password">//ctr+space tusu ile type""icine gelebilecek olan secenekleri gorebiliriz.
+    </p>
+    <p>
+        What do you think of this trip?
+    </p>
+    <textarea cols="30" rows="7" placeholder="Enter your comment here"></textarea>
+    <p>Select your favorite food:</p>
+    <input type="radio" name="food" value="burger" disabled>Burger
+    <input type="radio" name="food" value="kabab" checked >Kabab
+    <input type="radio" name="food" value="salad">Salad
+    <br>
+    <p>Pick a date:
+        <input type="date">
+    </p>
+    <input type="datetime-local">
+    <p>Please upload your resume:
+        <br>
+        <input type="file">
+    </p>
+    <p>
+        Please select your favorite courses(s)
+    </p>
+    <label for="java">Java
+        <input type="checkbox" name="course" value="java" id="java">
+    </label>
+
+    <input type="checkbox" name="course" value="DS">DS
+    <input type="checkbox" name="course" value="UI">UI
+
+    <p>Please select a program: </p>
+    <select name="course">
+        <option value=""disabled selected>Select a program</option>
+        <option value="jd">Java Developer</option>
+        <option value="sdet">SDET</option>
+        <option value="cs">Cyber Security</option>
+    </select>
+    <br>
+    <br>
+
+    <input class="button-18 " type="submit" value="Sign Up" id="signup">// class="btn1 btnFont" bu sekilde idi
+
+
+</form>
+
+</body>
+</html>
+
+//radio name birbirinden farkli olursa radio butonlarda birbirinden bagimsiz olur 
