@@ -2,61 +2,68 @@
 <html lang="en">
 <head>
     <title>Forms practice</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <style>
-        body{
-            background-color: coral;
-        }
+
     </style>
 </head>
-<body style="background-color: crimson">
+<body>
+
 <form>
-    <p style="background-color: darkgray">
+    <h1> Welcome to APP</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <br>Aliquid beatae, culpa ducimus ex excepturi
+        exercitationem inventore libero minus nam nihil nobis obcaecati officia quasi quos rem tempora tempore veritatis
+        vitae?</p>
+    <p style="background-color: cornflowerblue;">
         Username:
-        <input type="text" name="username">
-    </p>
-    <p class="class1">
-        Password:
-        <input type="password" name="password">//ctr+space tusu ile type""icine gelebilecek olan secenekleri gorebiliriz.
+        <input type="text" name="username" placeholder="Type your username">
     </p>
     <p>
-        What do you think of this trip?
+        Password:
+        <input type="password">//ctr+space tusu ile type""icine gelebilecek olan secenekleri gorebiliriz.
     </p>
-    <textarea cols="30" rows="7" placeholder="Enter your comment here"></textarea>
-    <p>Select your favorite food:</p>
-    <input type="radio" name="food" value="burger" disabled>Burger
-    <input type="radio" name="food" value="kabab" checked >Kabab
+    <p>
+        What did you think of this trip?
+    </p>
+    <textarea cols="30" rows="7" placeholder="Enter your comment"></textarea>
+    <br>
+    <p class="class1">Select your favorite food:</p>
+    <input type="radio" name="food" value="burger">Burger
+    <input type="radio" name="food" value="kabab" checked>Kabab
     <input type="radio" name="food" value="salad">Salad
     <br>
-    <p>Pick a date:
+    <p class="class1">Pick a date:
         <input type="date">
     </p>
     <input type="datetime-local">
-    <p>Please upload your resume:
+
+    <p class="class1">Please upload your resume:
         <br>
         <input type="file">
     </p>
     <p>
-        Please select your favorite courses(s)
+        Please select your favorite course(s)
     </p>
-    <label for="java">Java
-        <input type="checkbox" name="course" value="java" id="java">
+    <label for="abc">
+        <input type="checkbox" name="course" value="java" id="abc">Java
     </label>
 
     <input type="checkbox" name="course" value="DS">DS
     <input type="checkbox" name="course" value="UI">UI
+    <input type="checkbox" name="course" value="softSkill">Soft Skill
 
-    <p>Please select a program: </p>
-    <select name="course">
-        <option value=""disabled selected>Select a program</option>
+    <p>Please select the program: </p>
+    <select name="program" >
+        <option value="" disabled selected>Select a program</option>
         <option value="jd">Java Developer</option>
-        <option value="sdet">SDET</option>
+        <option value="sdet">Java SDET</option>
         <option value="cs">Cyber Security</option>
     </select>
     <br>
     <br>
 
-    <input class="button-18 " type="submit" value="Sign Up" id="signup">// class="btn1 btnFont" bu sekilde idi
+    <input class="button-33" type="submit" value="Sign Up" id="signup">// class="btn1 btnFont" bu sekilde idi
 
 
 </form>
